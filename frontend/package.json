@@ -1,0 +1,73 @@
+{
+  "name": "cody",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-tailwind/react": "^1.0.7",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.1",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@paypal/react-paypal-js": "^7.8.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "ckey": "^1.0.3",
+    "daisyui": "^2.20.0",
+    "googleapis": "^105.0.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.1",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-toastify": "^9.0.7",
+    "redux": "^4.2.0",
+    "serve": "^14.0.1",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.3.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "serve -s build",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "6.x"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}
